@@ -11,6 +11,8 @@ import { MediaComponent } from './media/media.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     MediaComponent,
     NavbarComponent,
     PortfolioComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    FooterComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
