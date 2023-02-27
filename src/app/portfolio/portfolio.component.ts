@@ -8,7 +8,7 @@ import { portfolio } from '../portfolio';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent {
-  portfolio:IPortfolio[] = portfolio;
+  portfolio:Array<IPortfolio> = portfolio;
 
   constructor() { }
 
