@@ -21,3 +21,11 @@ p {
     margin-bottom: 1rem;
     border-radius: 1rem;
 }
+
+.cont1 {
+    list-style-type: none
+}
+
+.btn1 {
+    text-align: center;
+}
