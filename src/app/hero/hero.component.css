@@ -2,5 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    flex-wrap: nowrap;
+}
+
+h1 {
+    color: black;
+    letter-spacing: 1.5px;
+    font-size: 2em;
+}
+
+.cameraImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
