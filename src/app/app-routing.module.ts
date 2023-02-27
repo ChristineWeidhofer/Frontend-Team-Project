@@ -8,14 +8,12 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 
 const routes: Routes = [{
   path: "", component: LandingPageComponent
-},{
+}, {
   path: "about", component: AboutComponent
-},{
+}, {
   path: "customers", component: CustomersComponent
 }, {
   path: "contact", component: ContactComponent
-}, {
-  path: "portfolio", component: PortfolioComponent
 }, {
   path: "**", redirectTo: ""
 }
