@@ -3,3 +3,6 @@ footer{
     background: linear-gradient(0deg, rgba(63,100,127,1) 0%, rgba(63,100,127,1) 0%, rgba(63,100,127,1) 23%, rgba(63,100,127,1) 52%, rgba(63,100,127,1) 94%);
 }
 
+a{
+    text-decoration: overline;
+}
