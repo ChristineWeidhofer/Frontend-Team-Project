@@ -1,6 +1,6 @@
 img {
     float: left;
-    width: 20vw;
+    width: 40vw;
     margin-right: 2rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
@@ -13,4 +13,11 @@ h5 {
 
 p {
     text-align: justify;
+}
+
+.msg1 {
+    margin-right: 12rem;
+    margin-left: 12rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
 }
