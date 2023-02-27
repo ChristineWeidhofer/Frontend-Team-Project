@@ -10,7 +10,7 @@ import { ActivatedRoute, Params } from '@angular/router';
 })
 export class PortfolioDetailsComponent implements OnInit {
   portfolio: IPortfolio = {} as IPortfolio;
-  id: number = 0;
+  portfolioId: number = 0;
 
   constructor(
     private route: ActivatedRoute
@@ -18,8 +18,8 @@ export class PortfolioDetailsComponent implements OnInit {
 
       ngOnInit(): void {
         this.route.params.subscribe((params: Params) => {
-          this.id = +params['portfolioId'];
-          this.portfolio = portfolio[this.id];
+          this.portfolioId = +params['portfolioId'];
+          this.portfolio = portfolio[this.portfolioId];
         });
       }
 

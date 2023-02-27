@@ -14,10 +14,10 @@ const routes: Routes = [{
   path: "customers", component: CustomersComponent
 }, {
   path: "contact", component: ContactComponent
-}, {
-  path: "**", redirectTo: ""
 },{
   path: 'portfolio/:portfolioId', component: PortfolioDetailsComponent
+}, {
+  path: "**", redirectTo: ""
 }
 ];
 

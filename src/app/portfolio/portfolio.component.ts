@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IPortfolio } from '../IPortfolio';
 import { portfolio } from '../portfolio';
+import { ActivatedRoute, Params } from '@angular/router';
 
 @Component({
   selector: 'app-portfolio',
