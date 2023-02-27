@@ -1,0 +1,16 @@
+img {
+    float: left;
+    width: 20vw;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    opacity: 0.7;
+}
+
+h5 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
