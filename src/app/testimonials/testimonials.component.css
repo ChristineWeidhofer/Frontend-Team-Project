@@ -1,0 +1,19 @@
+.client-block {
+  background-color:  rgb(63,100,127);
+  color: white;
+  height: 30%;
+  width: 67%;
+}
+
+i {
+  display: inline-block;
+  color: white;
+  font-size: 6rem;
+  padding: 1rem;
+}
+
+a, a:link    { color: white; }
+a:visited { color: white; }
+a:hover   { color: white; }
+a:focus   { outline: 1px solid white; }
+a:active  { color: white ;}
