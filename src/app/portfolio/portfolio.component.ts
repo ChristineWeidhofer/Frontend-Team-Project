@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { IPortfolio } from '../IPortfolio';
+import { portfolio } from '../portfolio';
 
 @Component({
   selector: 'app-portfolio',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./portfolio.component.css']
 })
 export class PortfolioComponent {
-
+  portfolio:IPortfolio[] = portfolio;
 }

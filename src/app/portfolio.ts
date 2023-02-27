@@ -1,4 +1,4 @@
-export const items = [
+export const portfolio = [
     {
      name: 'Photo X',
      description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.',
