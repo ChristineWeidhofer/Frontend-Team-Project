@@ -1,8 +1,15 @@
-<H2>Portfolio</H2>
-<div *ngFor="let val of portfolio; index as portID">
-    <h1><a routerLink="portfolio/{{portID}}">{{val.name}}</a></h1>
-    
-    <p *ngIf="val.description">
-        {{val.description}}
-    </p>
+<div class="container">
+    <H2>Portfolio</H2>
+    <div class="row row-cols-3">
+        <div *ngFor="let val of portfolio; index as portID">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{val.img}}" alt="{{val.name}}" alt="Card image cap">
+                <div class="card-body">
+                <p class="card-text"><a routerLink="portfolio/{{portID}}">{{val.name}}</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+
