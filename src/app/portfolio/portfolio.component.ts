@@ -9,4 +9,9 @@ import { portfolio } from '../portfolio';
 })
 export class PortfolioComponent {
   portfolio:IPortfolio[] = portfolio;
+
+  constructor() { }
+
+ ngOnInit(): void {
+ }
 }
