@@ -18,9 +18,10 @@ h1 {
 }
 
 img:hover {
-    filter: invert(100%);
+    filter: grayscale(100%);
+    transition: 3s ease-in-out;
 }
 
 img:active {
-    filter: grayscale(100%);
+    filter: invert(100%);
 }
