@@ -1,12 +1,12 @@
 a {
     text-decoration: none;
-    color: black;
-    transition: 0.5s;
+    color: #193047;
+    transition: all 0.6s ease-in;
 }
 
 a:hover {
     font-weight: bold;
-    color: red;
+    color: #1ABC9C;
 }
 
 img {

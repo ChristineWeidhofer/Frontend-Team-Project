@@ -3,6 +3,11 @@ img {
     border-radius: 6px;
 }
 
+h1 {
+    color: #1ABC9C;
+    font-weight: 800;
+}
+
 * {
     text-align: center;
 }
@@ -13,6 +18,7 @@ button {
     transition: all 600ms ease-out;
     border-radius: 0.3rem;
     font-weight: bold;
+    background-color: #1ABC9C;
 }
 
 button:hover {
@@ -26,5 +32,5 @@ a {
 }
 
 a:hover {
-    color: rgb(241,2,3);
+    color: white;
 }
