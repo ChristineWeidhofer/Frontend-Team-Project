@@ -5,7 +5,7 @@
   width: 67%;
 }
 
-i {
+.fa-brands {
   display: inline-block;
   color: white;
   font-size: 6rem;
@@ -17,3 +17,4 @@ a:visited { color: white; }
 a:hover   { color: white; }
 a:focus   { outline: 1px solid white; }
 a:active  { color: white ;}
+
