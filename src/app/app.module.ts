@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeroComponent } from './hero/hero.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioDetailsComponent } from './portfolio-details/portfolio-details.component';
+import { ContactBannerComponent } from './contact-banner/contact-banner.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { PortfolioDetailsComponent } from './portfolio-details/portfolio-details
     FooterComponent,
     HeroComponent,
     AboutComponent,
-    PortfolioDetailsComponent
+    PortfolioDetailsComponent,
+    ContactBannerComponent
   ],
   imports: [
     BrowserModule,
