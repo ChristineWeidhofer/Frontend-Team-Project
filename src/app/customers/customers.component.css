@@ -12,8 +12,23 @@
   padding: 1rem;
 }
 
-a, a:link    { color: white; }
-a:visited { color: white; }
-a:hover   { color: white; }
-a:focus   { outline: 1px solid white; }
-a:active  { color: white ;}
+a, a:link {
+  transition: all 0.3s linear;
+  color: white;
+
+}
+a:visited {
+  color: white;
+
+}
+a:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+a:focus {
+  outline: 1px solid white;
+}
+a:active { 
+  color: white ;
+}

@@ -1,6 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
-
+/* font text */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* font headings and navbar */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 ::selection {
     background-color: #193047;
@@ -10,4 +12,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
+}
+
+h1, h2, h3 {
+    font-family: 'Libre Baskerville', serif;
 }
