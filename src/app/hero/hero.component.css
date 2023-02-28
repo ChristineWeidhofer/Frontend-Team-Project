@@ -71,3 +71,44 @@ img:hover {
     color: white;
     z-index: 1;
 }
+
+#bBtn {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.modal-content {
+    border: none;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 50px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.modal-body {
+    background-image: url("https://images.unsplash.com/photo-1596265371388-43edbaadab94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG9ncmFwaHklMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60");
+    background-size: contain;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-body p {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+}
