@@ -1,5 +1,6 @@
 img {
     width: 50vw;
+    border-radius: 6px;
 }
 
 * {

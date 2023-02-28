@@ -8,3 +8,9 @@ a:hover {
     font-weight: bold;
     color: red;
 }
+
+img {
+    height: 161px;
+    object-fit: cover;
+}
+
