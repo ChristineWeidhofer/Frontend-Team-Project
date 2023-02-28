@@ -1,6 +1,6 @@
 footer{
-    background: #202427;
-    background: linear-gradient(0deg, rgb(7, 8, 8) 0%, rgb(4, 4, 4) 0%, rgb(0, 0, 0) 23%, rgb(0, 0, 0) 52%, rgb(0, 0, 0) 94%);
+    background:#313233;
+    background: linear-gradient(0deg, rgb(40, 43, 43) 0%, rgb(40, 43, 43) 0%, rgb(40, 43, 43) 23%, rgb(40, 43, 43) 52%, rgb(40, 43, 43) 94%);
 }
 
 a{
