@@ -3,6 +3,10 @@ footer{
     background: linear-gradient(0deg, rgb(40, 43, 43) 0%, rgb(40, 43, 43) 0%, rgb(40, 43, 43) 23%, rgb(40, 43, 43) 52%, rgb(40, 43, 43) 94%);
 }
 
-a{
+a:hover{
     text-decoration: overline;
+    text-decoration-color:rgb(115, 84, 6); 
+}
+a{
+    text-decoration: none;
 }
