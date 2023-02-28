@@ -14,3 +14,11 @@ img {
     object-fit: cover;
 }
 
+.myCard {
+    transition: all .5s ease-in;
+}
+
+.myCard:hover {
+    transform: scale(1.05);
+}
+

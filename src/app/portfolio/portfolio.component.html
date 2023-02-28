@@ -2,7 +2,7 @@
     <H2>Portfolio</H2>
     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
         <div *ngFor="let val of portfolio; index as portfolioID">
-            <div class="card m-2" style="width: 18rem;">
+            <div class="card myCard m-2" style="width: 18rem;">
                 <img class="card-img-top" src="{{val.img}}" alt="{{val.name}}" alt="Card image cap">
                 <div class="card-body">
                 <p class="card-text text-center"><a routerLink="portfolio/{{portfolioID}}">{{val.name}}</a></p>
