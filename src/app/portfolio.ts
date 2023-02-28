@@ -3,19 +3,19 @@ export const portfolio = [
      name: 'Wedding',
      description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.',
      img: '../assets/wedding.jpg',
-     longDes: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos. ',
+     longDes: 'We believe in Love. The focus of our work is always on a creative, natural approach and on a creative, natural approach and on technical quality for high-quality image. You will experience the most exciting wedding shoot at Photo 10- Photograph.',
     },
     {
-     name: 'Woman X',
+     name: 'Portrait',
      description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.',
      img: '../assets/portrait_woman.jpg',
-     longDes: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.',
+     longDes: 'Photo-10 is responsible for great background/location with the correct lighting for our portrait photographs. You need to just call us and book a Portrait-Photo session.',
     },
     {
      name: 'Mountain',
      description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.',
      img: '../assets/mountain.jpg',
-     longDes: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.',
+     longDes: 'We Photo-10 Team are also a mountain photographer team. We can’t be booked for such photograph sessions, but you can join our team and have a lot of fun.',
     },
     {
      name: 'Man X',

@@ -1,0 +1,29 @@
+img {
+    width: 50vw;
+}
+
+* {
+    text-align: center;
+}
+
+button {
+    margin: 1rem;
+    padding: .4rem;
+    transition: all 600ms ease-out;
+    border-radius: 0.3rem;
+    font-weight: bold;
+}
+
+button:hover {
+    transform: scale(1.15);
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(241,2,3);
+}
