@@ -82,7 +82,7 @@ img:hover {
 }
 
 .modal-header h1 {
-    color: white;
+    color: whitesmoke;
 }
 
 .modal-content {
@@ -94,7 +94,7 @@ img:hover {
 }
 
 .modal-body {
-    background: transparent;
+    /* background: transparent; */
     border-radius: 3em;
 }
 
@@ -106,7 +106,7 @@ img:hover {
 
 .carousel-item h2 {
     position: absolute;
-    color: white;
+    color: whitesmoke;
     bottom: 0;
     right: 0;
     padding-right: 20px;
