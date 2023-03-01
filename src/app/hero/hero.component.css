@@ -81,11 +81,6 @@ img:hover {
     font-weight: bold;
 }
 
-.modal-header h1 {
-    color: whitesmoke;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .modal-content {
     background: transparent;
     border: none;
@@ -110,8 +105,8 @@ img:hover {
     position: absolute;
     color: whitesmoke;
     font-family: 'Montserrat', sans-serif;
-    bottom: 0;
-    right: 0;
-    padding-right: 1.5rem;
+    top: 0;
+    left: 0;
+    padding: 20px;
     z-index: 1;
 }
