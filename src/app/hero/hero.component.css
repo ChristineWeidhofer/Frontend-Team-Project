@@ -98,6 +98,7 @@ img:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    opacity: 0.84;
 }
 
 .modal-body p {
