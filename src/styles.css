@@ -12,6 +12,13 @@
 body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: #212529;
+    color: white;
 }
 
 h1, h2, h3 {

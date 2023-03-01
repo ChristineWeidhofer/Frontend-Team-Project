@@ -1,3 +1,6 @@
+a{
+    font-family: 'Libre Baskerville', serif;
+}
 
 a:hover{
     
@@ -6,6 +9,28 @@ a:hover{
 
 }
 
-a{
-    font-family: 'Libre Baskerville', serif;
+.neon {
+    background-color: #373F3E;
+    transition: all 0.3s linear;
+}
+
+.neon:hover {
+    box-shadow: 0px 0px 15px #1ABC9C;
+    transform: scale(1.01);
+}
+
+.navbar {
+    position: relative;
+}
+
+.btn-dark-mode {
+    position: absolute;
+    right: 1.5rem;
+    top: 1.4rem;
+}
+
+@media screen and (max-width: 991px) {
+    .btn-dark-mode {
+        right: 15%;
+    }
 }

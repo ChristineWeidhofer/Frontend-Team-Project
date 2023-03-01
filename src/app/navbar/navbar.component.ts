@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  darkMode() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }
+
 }
