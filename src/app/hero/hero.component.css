@@ -83,6 +83,7 @@ img:hover {
 
 .modal-header h1 {
     color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .modal-content {
@@ -95,7 +96,7 @@ img:hover {
 
 .modal-body {
     /* background: transparent; */
-    border-radius: 3em;
+    border-radius: 1rem;
 }
 
 .carousel-item img {
@@ -108,8 +109,9 @@ img:hover {
 .carousel-item h2 {
     position: absolute;
     color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
     bottom: 0;
     right: 0;
-    padding-right: 20px;
+    padding-right: 1.5rem;
     z-index: 1;
 }
