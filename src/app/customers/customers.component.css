@@ -32,3 +32,42 @@ a:focus {
 a:active { 
   color: white ;
 }
+
+.banner {
+  position: relative;
+  height: 300px;
+  border-radius: 1rem;
+}
+
+/* putting the background-image on a pseudo-element to only make image transparent, text stays OPACITY:1 */
+
+.banner::before {
+  content: "";
+  background-image: url("../../assets/hero1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.8;
+}
+
+/* button style */
+.neon {
+  position: relative;
+  background-color: #193047;
+  transition: all 0.3s linear;
+}
+
+.neon:hover {
+  box-shadow: 0px 0px 15px #1ABC9C;
+  transform: scale(1.01);
+}
+
+h3 {
+  text-shadow: 0px 0px 15px black;
+  position: relative;
+}
