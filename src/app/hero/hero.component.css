@@ -81,35 +81,35 @@ img:hover {
     font-weight: bold;
 }
 
+.modal-header h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
 .modal-content {
+    background: radial-gradient(white, #212529);
+    /* background-color: #212529; */
     border: none;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
     padding: 30px;
     border-radius: 50px;
-    max-width: 600px;
-    margin: auto;
 }
 
 .modal-body {
-    background-image: url("https://images.unsplash.com/photo-1596265371388-43edbaadab94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGhvdG9ncmFwaHklMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60");
-    background-size: contain;
-    background-position: center;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    opacity: 0.84;
+    background: radial-gradient(white, #212529);
 }
 
-.modal-body p {
+.carousel-item img {
+    position: relative;
+    z-index: -1;
+}
+
+.carousel-item h2 {
+    position: absolute;
     color: white;
-    font-size: 18px;
-    text-align: center;
-    line-height: 1.5;
-    margin-bottom: 40px;
-}
-
-.modal-footer {
-    display: flex;
-    justify-content: center;
+    bottom: 0;
+    right: 0;
+    padding-right: 20px;
+    z-index: 1;
 }
