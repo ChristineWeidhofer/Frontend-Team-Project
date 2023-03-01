@@ -102,6 +102,7 @@ img:hover {
     position: relative;
     z-index: -1;
     border-radius: 2em;
+    opacity: 0.9;
 }
 
 .carousel-item h2 {
