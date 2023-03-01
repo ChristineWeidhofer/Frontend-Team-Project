@@ -14,22 +14,11 @@ h5 {
     text-align: justify;
 }
 
-.msg1 {
-    margin-right: 12rem;
-    margin-left: 12rem;
-    margin-bottom: 1rem;
-    border-radius: 1rem;
-}
-
 .cont1 {
     list-style-type: none
 }
 
-.btn1 {
-    text-align: center;
-}
-
-.myBtn {
+/* .myBtn {
     text-decoration: none;
     color: #193047;
     background-color: #1ABC9C;
@@ -38,18 +27,17 @@ h5 {
     font-weight: bold;
     transition: all 0.6s ease-out;
 
-}
+} */
 
-.myBtn:hover {
+/* .myBtn:hover {
     font-weight: bold;
     color: white;
     transform: scale(1.05);
-}
+} */
 
 .banner {
     position: relative;
     height: 300px;
-    border-radius: 1rem;
   }
   
   /* putting the background-image on a pseudo-element to only make image transparent, text stays OPACITY:1 */
@@ -71,6 +59,7 @@ h5 {
   /* button style */
   .neon {
     position: relative;
+    /* border: none; */
     background-color: #193047;
     transition: all 0.3s linear;
   }

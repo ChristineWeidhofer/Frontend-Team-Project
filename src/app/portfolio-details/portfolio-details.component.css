@@ -12,7 +12,20 @@ h1 {
     text-align: center;
 }
 
-button {
+  /* button style */
+.neon {
+    position: relative;
+    /* border: none; */
+    background-color: #193047;
+    transition: all 0.3s linear;
+}
+
+.neon:hover {
+    box-shadow: 0px 0px 15px #1ABC9C;
+    transform: scale(1.01);
+}
+
+/* button {
     margin: 1rem;
     padding: .4rem;
     transition: all 600ms ease-out;
@@ -23,9 +36,9 @@ button {
 
 button:hover {
     transform: scale(1.15);
-}
+} */
 
-a {
+/* a {
     text-decoration: none;
     list-style: none;
     color: black;
@@ -33,4 +46,4 @@ a {
 
 a:hover {
     color: white;
-}
+} */

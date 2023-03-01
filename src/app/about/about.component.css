@@ -11,7 +11,6 @@
   .banner {
     position: relative;
     height: 300px;
-    border-radius: 1rem;
   }
 
   .banner::before {
@@ -58,29 +57,6 @@ h3 {
     margin: 1rem;
     padding: 1rem;
   }
-  
-  /* .about-section {
-    height: 250px;
-    padding: 3rem;
-    background-image: url("../../assets/hero1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  } */
-
-  /* .about-section::before {
-    content: "";
-    background-image: url("../../assets/hero1.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.8;
-  } */
   
   /* .container {
     padding: 0 16px;

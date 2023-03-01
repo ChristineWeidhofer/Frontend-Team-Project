@@ -5,22 +5,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 ::selection {
-    background-color: #193047;
+    background-color: #1CBC9B;
     color: white;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
+    background-color: #212529; /* dark mode as default*/
+    color: white;
+}
+
+.light-mode {
     background-color: white;
     color: black;
 }
 
-.dark-mode {
-    background-color: #212529;
-    color: white;
-}
-
 h1, h2, h3 {
     font-family: 'Libre Baskerville', serif;
+}
+
+.max {
+    max-width: 1600px;
 }
