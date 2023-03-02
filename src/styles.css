@@ -21,9 +21,9 @@ body {
     color: black;
 }
 
-h1, h2, h3 {
+/* h1, h2, h3 {
     font-family: 'Libre Baskerville', serif;
-}
+} */
 
 .max {
     max-width: 1600px;
