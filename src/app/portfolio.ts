@@ -12,7 +12,7 @@ export const portfolio = [
      longDes: 'Photo-10 is responsible for great background/location with the correct lighting for our portrait photographs. You need to just call us and book a Portrait-Photo session.',
     },
     {
-     name: 'Mountain',
+     name: 'Scenery',
      description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.',
      img: '../assets/mountain.jpg',
      longDes: 'We Photo-10 Team are also a mountain photographer team. We can’t be booked for such photograph sessions, but you can join our team and have a lot of fun.',
@@ -24,7 +24,7 @@ export const portfolio = [
      longDes: 'Birthdays are special days, so you want to have a great B-Day Party and great photos. Get in touch with us!',
     },
     {
-     name: 'Best friend',
+     name: 'Friendship',
      description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.',
      img: '../assets/girls.jpg',
      longDes: 'Take time and join us with your best friend. Photo 10 will let you have beautiful moment with your souls sister/brother.',
@@ -36,7 +36,7 @@ export const portfolio = [
      longDes: 'Animals are our passion. They are a best friend, a child for us . So, we are now available for Animal Photo Shoots.',
     },
     {
-     name: 'Baby-Shower',
+     name: 'Baby Shower',
      description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, dignissimos.',
      img: '../assets/close-up_woman.jpg',
      longDes: 'Baby Shower shoots are available  now with  50%sale and we sponsor you to have a great Baby-Shower Party.',

@@ -1,12 +1,12 @@
 <div class="container">
     <br>
-    <H1 class="text-center my-5">PHOTO 10 - Portfolio</H1>
+    <H1 class="text-center my-5">PHOTO 10 - Packages</H1>
     <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
         <div *ngFor="let val of portfolio; index as portfolioID">
             <div class="card myCard mx-auto bg-light m-2" style="width: 18rem;">
                 <img class="card-img-top" src="{{val.img}}" alt="{{val.name}}" alt="Card image cap">
                 <div class="card-body">
-                <p class="card-text text-center"><a routerLink="portfolio/{{portfolioID}}">{{val.name}}</a></p>
+                <p class="card-text text-center text-uppercase"><a routerLink="portfolio/{{portfolioID}}">{{val.name}}</a></p>
                 </div>
             </div>
         </div>
