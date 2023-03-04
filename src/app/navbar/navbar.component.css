@@ -34,3 +34,7 @@ a:hover{
         right: 15%;
     }
 }
+
+button.navbar-toggler:active {
+    border: none;
+}
