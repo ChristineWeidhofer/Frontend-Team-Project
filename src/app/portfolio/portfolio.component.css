@@ -10,7 +10,7 @@ a:hover {
 }
 
 img {
-    height: 161px;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -21,4 +21,3 @@ img {
 .myCard:hover {
     transform: scale(1.05);
 }
-

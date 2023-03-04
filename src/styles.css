@@ -1,9 +1,6 @@
 /* font text */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-/* font headings and navbar */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
-
 ::selection {
     background-color: #1CBC9B;
     color: white;
@@ -21,10 +18,45 @@ body {
     color: black;
 }
 
-/* h1, h2, h3 {
-    font-family: 'Libre Baskerville', serif;
-} */
-
 .max {
     max-width: 1600px;
 }
+
+/* heroes */
+.banner {
+    position: relative;
+    height: 265px;
+  }
+  
+  /* putting the background-image on a pseudo-element to only make image transparent, text stays OPACITY:1 */
+  
+  .banner::before {
+    content: "";
+    background-image: url("./assets/hero1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.8;
+  }
+  
+  /* button style */
+  .neon {
+    position: relative;
+    background-color: #193047;
+    transition: all 0.3s linear;
+  }
+  
+  .neon:hover {
+    box-shadow: 0px 0px 15px #1ABC9C;
+    transform: scale(1.01);
+  }
+  
+  h3 {
+    text-shadow: 0px 0px 15px black;
+    position: relative;
+  }
